@@ -1,0 +1,42 @@
+header img{
+    width: 100px;
+}
+header{
+    border-bottom: 1px solid black;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+nav ul li{
+    margin: 10px;
+}
+nav{
+    border-bottom: 1px solid black;
+}
+main{
+    display: flex;
+}
+aside{
+    width: 30%;
+}
+section{
+    width: 70%;
+} 
+aside div{
+    background-color: gray;
+}  
+article{
+    width: 40%;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
